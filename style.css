@@ -1,0 +1,30 @@
+body {
+	background-image: url('./cloud.jpg');
+	background-size: cover;
+}
+img
+{
+	position: absolute;
+	width: 80vw;
+	margin-left: 10vw;
+}
+
+.ball {
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	background-color: rgba(30,30,30,.5);
+	border-radius: 50%;
+}
+
+div {
+	margin-right: 20%;
+}
+.smallball {
+	display: none;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	background-color: rgba(30,30,30,.5);
+	border-radius: 50%;
+}
